@@ -29,6 +29,11 @@ export class PostsComponent implements OnInit {
     })*/
   }
 
+  escuchaClick(event:Number){
+
+    console.log('clic en: ',event);
+  }
+
   ngOnDestroy(): void {
 
     this.subscribe.unsubscribe();
